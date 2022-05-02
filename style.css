@@ -1,0 +1,90 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/949852/pexels-photo-949852.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    height: 10vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color:rgba(4, 4, 4, 0.78);
+    text-align: right;
+    
+}
+
+#logo-img{
+    height: 50px;
+    width: 50px;
+    color: white;
+    position: absolute;
+    left: 6vw;
+    top: 1.5vh;
+    
+}
+
+nav li{
+    
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.4em;
+    padding: 25px;
+    line-height: 10vh;
+    ;
+}
+
+.main-content{
+    width: 100%;
+    height: 90vh;
+}
+
+#explore-txt{
+    color: rgb(220, 213, 8);
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top: 30vh;
+    left: 38%;
+    font-size: 9em;
+    font-weight: bold;
+    
+}
+
+#the-life-you-want-to-live-txt{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50vh;
+    left: 48%;
+    font-size: 3em;
+    font-family: 'Satisfy', cursive;
+}
+
+#search-img{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 70.5vh;
+    left: 31.5%;
+}
+
+#search-bar-box{
+    height: 8vh;
+    width: 50vw;
+    position: absolute;
+    top: 68vh;
+    left: 30%;
+    border-radius: 25px;
+    border: 5px solid rgb(187, 181, 5);
+    background-color: rgba(255, 255, 255, 0.061);
+    color: white;
+    padding-left: 70px;
+    font-size: 1.2em;
+
+
+}
